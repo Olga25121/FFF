@@ -16,6 +16,21 @@ elif quarter == 4:
     print("x > 0 and y < 0")
 else:
     print("Номер четверти плоскости введен некорректно!")
+
+# Без преобразования сразу работать со строковыми
+# quarter = input()
+# match quarter:
+#     case "1":
+#         print("x > 0, y > 0")
+#     case "2":
+#         print("x < 0, y > 0")
+#     case "3":
+#         print("x < 0, y < 0")
+#     case "4":
+#         print("x > 0, y < 0")    
+#     case _:
+#         print("error")    
+
     
     
 

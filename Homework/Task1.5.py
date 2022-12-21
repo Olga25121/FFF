@@ -14,3 +14,5 @@ xb = float(input("Введите координату x точки B: "))
 yb = float(input("Введите координату x точки B: "))
 distanceAB = math.sqrt((xb-xa)**2 + (yb-ya)**2)
 print(round (distanceAB, 3))
+
+# print(f"{((xb-xa)**2 + (yb-ya)**2)**0.5:0.4}")

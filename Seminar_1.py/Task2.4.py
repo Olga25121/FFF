@@ -25,6 +25,22 @@ mult = list_num[x-1] * list_num[y-1]
 print(f"Последовательность: {list_num}")
 print(f"Произведение: {mult}")
 
+# Метод 2
+# num = int(input("Введите значение N: "))
+# n_1 = int (input("Первая позиция: "))
+# n_2 = int (input("Вторая позиция: "))
+
+# nums_list = list(range(-num, num + 1))
+# print(nums_list)
+
+# len_list = len(nums_list)
+# if len_list >= n_1 > 0 and len_list >= n_2 > 0:
+#     print(nums_list[n_1 - 1])*(nums_list[n_2 - 1])
+# else:
+#     print("Для этих индексов нет значений!")
+
+
+
 
 
 

@@ -12,6 +12,15 @@ for i in range (1, n + 1):
     num_list.append(f)
 print(num_list)
 
+# Метод 2
+# num = int(input())
+# sum_digit = 1
+# num_list = []
+# for i in range(num):
+#    sum_digit *= i + 1
+#    num_list.append(sum_digit)
+# print(num_list)   
+
 
 
 

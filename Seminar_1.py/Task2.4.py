@@ -25,34 +25,6 @@ mult = list_num[x-1] * list_num[y-1]
 print(f"Последовательность: {list_num}")
 print(f"Произведение: {mult}")
 
-# def range_numbers_n():  
-#     print([*range(-n, n + 1)])
-# range_numbers_n()
-# for i in range(n):
-#     if x == n:
-#         mult = n[x-1]*n[y-1]
-#     else:
-#         print("?")
-# print(f"Произведение элементов на указанных позициях: {n[x-1]}*{n[y-1]} =", mult)
-# from random import randint
-# numbers = []
-# for i in range(10):
-#     numbers.append(randint (-10,10))
-# print(numbers)
-
-# def get_numbers(numbers):
-#     count =0 
-#     for element in numbers:
-#         count +=1
-#     return count
-# print('Number of elements: ', get_numbers(numbers))
-
-# x = int(input('Enter  position of first element: '))
-# y = int(input('Enter position of second element: '))
-
-# for i in range(len(numbers)):
-#     mult = numbers[x -1]*numbers[y - 1]
-# print(f'Mult of elements: {numbers[x -1]} * {numbers[y -1]} =', mult)
 
 
 

@@ -21,9 +21,14 @@ y = int (input("Вторая позиция: "))
 list_num = []
 for i in range(-n, n+1):
     list_num.append(i)
-mult = list_num[x-1] * list_num[y-1]
 print(f"Последовательность: {list_num}")
-print(f"Произведение: {mult}")
+if x <= len(list_num) and y <= len(list_num):
+    mult = list_num[x-1] * list_num[y-1]
+    print(f"Произведение: {mult}")
+else:
+    print("Таких позиций нет")
+
+
 
 # Метод 2
 # num = int(input("Введите значение N: "))

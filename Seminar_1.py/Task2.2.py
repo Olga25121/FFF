@@ -3,13 +3,14 @@
 # 1 - 1 * 1, 2 - 1 * 2, 3 - 1 * 2 * 3, 4 - 1 * 2 * 3 * 4 и т.д.
 # - 4 -> [1, 2, 6, 24]
 # - 6 -> [1, 2, 6, 24, 120, 720]
-# n = int(input("Введите число: "))
-# list = []
-# f = 1
-# for i in range (1, n + 1):
-#    list1 = list(f(i))
-#    f = f*i
-# print(list1)
+
+num_list = []
+n = int(input("Введите число: "))
+f=1
+for i in range (1, n + 1):
+    f=f*i
+    num_list.append(f)
+print(num_list)
 
 
 

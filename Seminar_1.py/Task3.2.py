@@ -24,10 +24,10 @@ num_list = [random.randint(1, 10) for i in range(n)]
 
 
 def multiple_nums(element):
-    pair_num = []
+    pair_list = []
     for i in range((len(element) + 1) // 2):
-        pair_num.append(element[i] * element[len(element) - 1 - i])
-    return pair_num
+        pair_list.append(element[i] * element[len(element) - 1 - i])
+    return pair_list
 
 print(num_list, end=" =>")
 print(multiple_nums(num_list))

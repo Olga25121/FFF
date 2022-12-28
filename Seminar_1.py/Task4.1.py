@@ -7,19 +7,15 @@
 #    Enter the required accuracy '0.0001': 0.001
 # out 8.988
 
-from decimal import getcontext
+from decimal import Decimal, getcontext
+
+number = Decimal(input("Введите число: "))
+accuracy= Decimal(input("Введите требуемую точность '0.0001': "))
+
+def num_accuracy(n, a):
+
+    print("Число с заданной точностью: ", n.quantize(a))
 
 
-# getcontext().clear_flags()
-# n = int(input("Введите число: "))
+num_accuracy (number, accuracy)
 
-# d= Decimal(input("Введите требуемую точность: "))
-# getcontext(). = d
-
-# print(f"Число{n}с заданной точностью: {d}")
-getcontext().clear_flags()
-d = int(input("Введите желаемую точность: "))
-getcontext().prec = d
-r = Decimal(input("Введите вещественное число: "))
-
-print(f"Число {r:.{d}} с точностью {d} знаков")

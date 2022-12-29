@@ -16,6 +16,5 @@ def num_accuracy(n, a):
 
     print("Число с заданной точностью: ", n.quantize(a))
 
-
 num_accuracy (number, accuracy)
 

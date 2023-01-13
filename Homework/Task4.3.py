@@ -40,21 +40,26 @@ print(f"Cписок неповторяющихся элементов исход
 #     if count < 0:
 #         print("Negative value of the number of numbers!")
 #         return []
-#         list_nums = []
-#         for i in range(count):
-#                 list_nums.append(randrange(count))
-#         return list_nums
+
+#     list_nums = []
+#     for i in range(count):
+#         list_nums.append(randrange(count))
+
+#     return list_nums
 
 
 # def uniq_el(list_nums: list):
 #     result = []
-# my_dict = {}.fromkeys(list_nums, 0)
-# for i in list_nums:
-#     my_dict[i] += 1
+#     my_dict = {}.fromkeys(list_nums, 0)
+
+#     for i in list_nums:
+#         my_dict[i] += 1
+
 #     for k in my_dict:
 #         if my_dict[k] == 1:
-#                result.append(k)
-#                return result
+#             result.append(k)
+
+#     return result
 
 
 # all_list = list_rand_nums(int(input("Number of numbers: ")))

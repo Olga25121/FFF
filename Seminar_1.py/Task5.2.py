@@ -26,8 +26,8 @@
 with open('text_words.txt', 'w', encoding='UTF-8') as file:
     file.write(input('Введите текст, необходимый для сжатия: '))
 with open('text_words.txt', 'r') as file:
-    my_txt = file.readline()
-    txt_compr = my_txt.split()
+    text = file.readline()
+    txt_compress = text.split()
 
 print()
 def coding(txt):
@@ -56,10 +56,10 @@ def decoding(txt):
             number = ''
     return res
 
-txt_compr = coding(my_txt)
+txt_compress = coding(text)
 
 with open('text_code_words.txt', 'w', encoding='UTF-8') as file:
-    file.write(f'{txt_compr}')
+    file.write(f'{txt_compress}')
 
 # Можно вывести результат в консоль
 # s = input("Введите текст для кодировки: ")

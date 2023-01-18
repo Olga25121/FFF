@@ -7,6 +7,7 @@
 #    Enter the required accuracy '0.0001': 0.001
 # out 8.988
 
+#1
 from decimal import Decimal, getcontext
 
 number = Decimal(input("Введите число: "))
@@ -18,3 +19,21 @@ def num_accuracy(n, a):
 
 num_accuracy (number, accuracy)
 
+#2
+from decimal import Decimal
+
+
+def accuracy(num, acc):
+    number = Decimal(f"{num}")
+    return number.quantize(Decimal(f"{acc}"))
+
+
+print(accuracy(float(input("Enter a real number: ")), float(input("Enter the required accuracy 0.0001: "))))
+
+#3
+# --------------------------------------- 2 вариант
+
+num = float(input('Enter a real number: '))
+
+_, accu = input("Enter the required accuracy '0.0001': ").split(".")
+print(f"{num:.{len(accu)}f}")

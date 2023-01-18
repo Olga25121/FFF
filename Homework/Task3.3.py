@@ -4,6 +4,7 @@
 # in ->88  out -> 1011000
 # in ->11  out -> 1011
 
+#1
 n = int(input("Введите десятичное число: "))
 num_list = []
 
@@ -16,5 +17,16 @@ print(f"Преобразованное десятичное число в дво
 # Введите десятичное число: 11
 # Преобразованное десятичное число в двоичное: [1, 0, 1, 1]
 
+#2
+def conv_bin(num: int):
+    list_nums = []
 
+    while num > 0:
+        list_nums.insert(0, num % 2)
+        num //= 2
+
+    print(*list_nums, sep="")
+
+
+conv_bin(int(input()))
 

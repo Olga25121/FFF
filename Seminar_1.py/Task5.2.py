@@ -62,6 +62,6 @@ with open('text_code_words.txt', 'w', encoding='UTF-8') as file:
     file.write(f'{txt_compress}')
 
 # Можно вывести результат в консоль
-# s = input("Введите текст для кодировки: ")
-# print(f"Текст после кодировки: {coding(my_txt)}")
-# print(f"Текст после дешифровки: {decoding(coding(my_txt))}")
+
+print(f"Текст после кодировки: {coding(text)}")
+print(f"Текст после дешифровки: {decoding(coding(text))}")

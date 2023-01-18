@@ -15,7 +15,7 @@ CANDIES = 121
 CANDIES_LIMIT = 28
 
 
-def bot_run(candies: int) -> int:
+def bot_run(candies: int) -> int: # аннотация типов (на входе : int, на выходе -> int)
     result = candies % CANDIES_LIMIT + 1
     if not result:
         result = randint(1, CANDIES_LIMIT + 1)

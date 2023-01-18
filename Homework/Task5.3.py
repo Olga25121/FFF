@@ -31,7 +31,7 @@ def place_sign(token):
 
 def check_win():
     win_coord = ((0, 1, 2), (3, 4, 5), (6, 7, 8), (0, 3, 6), (1, 4, 7), (2, 5, 8), (0, 4, 8), (2, 4, 6))
-    n = [board[x[0]] for x in win_coord if board[x[0]] == board[x[1]] == board[x[2]]]
+    n = [board[x[0]] for x in win_coord if board[x[0]] == board[x[1]] == board[x[2]]] # list comprehentions
     return n[0] if n else n
 
 
@@ -39,7 +39,7 @@ def main():
     counter = 0
     draw_board()
     while True:
-        place_sign("O") if counter % 2 else place_sign("X")
+        place_sign("O") if counter % 2 else place_sign("X") # тернарный оператор
         draw_board()
 
         if counter > 3:

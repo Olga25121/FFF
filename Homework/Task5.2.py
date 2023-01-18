@@ -90,13 +90,13 @@ def rle_decode(name):
             n = ""
             for k in my_f:
                 word_nums = []
-                for i in k.strip():
-                    if i.isdigit():
-                        n += i
+                for i in k.strip():   # '22a6b'
+                    if i.isdigit():   
+                        n += i        # n = '22' приплюсовывает
                     else:
-                        word_nums.append([int(n), i])
+                        word_nums.append([int(n), i]) # [22, 'a']
                         n = ""
-                print("".join(starmap(lambda x, y: x * y, word_nums)))
+                print("".join(starmap(lambda x, y: x * y, word_nums))) # 22*a перемножает
     else:
         print("The files do not exist in the system!")
 

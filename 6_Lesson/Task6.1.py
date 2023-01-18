@@ -3,6 +3,8 @@
 # +,-,/,* приоритет операций стандартный. 
 # * Добавьте скобки,  приоритет операций меняется.
 
+# exp = "4 * 3 - 1 / 9 - 7 * -1".split()
+
 actions = {
     "^": lambda x, y: str(float(x) ** float(y)),
     "*": lambda x, y: str(float(x) * float(y)),
@@ -63,7 +65,7 @@ def decision(final_list: list):
     return final_list[0]
 
 
-exp = "4 * 3 - 1 / 9 - 7 * -1".split()
+exp = "4 * 3 - 1 / 9 - 7 * -1".split()                  # eval("4 * 3 - 1 / 9 - 7 * -1") -> 151.0
 # exp = "-2 + ( 4 / 2 - 7 + 8 * 7 ) * 3".split()
 # exp = "( 12 + 8 ) * 3 - 11 / 2".split()
 # exp = "11 / 2 - ( 12 + 8 ) * 3".split()
@@ -73,3 +75,4 @@ exp = "4 * 3 - 1 / 9 - 7 * -1".split()
 
 print(parse(exp))
 print(decision(parse(exp)))
+

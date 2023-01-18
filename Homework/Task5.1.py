@@ -24,7 +24,7 @@ def words_list(count):
         print("Ошибка! Вы ввели отрицательное число.")
         
     for x in range(count):
-        random_txt = random.sample(txt, 3)
+        random_txt = random.sample(txt, 3) # k = 3
         lst1.append("".join(random_txt))
     return(' '.join(lst1))
      
@@ -77,7 +77,7 @@ def list_rand_words(count: int, alp: str = 'абв'):
     return " ".join(words_list)
 
 
-# def list_rand_words(count: int, alp: str = 'абв'):
+# def list_rand_words(count: int, alp: str = 'абв'):                       # list comprehention
 #     return " ".join("".join(sample(alp, 3)) for _ in range(count))
 
 

@@ -31,4 +31,3 @@ def list_bigger_elem(list_nums: list):
 all_list = list_rand_nums(int(input("Введите длину списка: ")))
 print(all_list)
 print(list_bigger_elem(all_list))
-

@@ -1,0 +1,39 @@
+
+2023-02-04 22:44:54,092 - root - INFO - Start menu.
+2023-02-04 23:10:50,694 - telegram.ext._application - INFO - Application started
+2023-02-04 23:11:02,782 - root - INFO - Start menu.
+2023-02-04 23:12:33,127 - root - INFO - Start main menu.
+2023-02-04 23:13:40,545 - root - INFO - Start menu with rational.
+2023-02-04 23:13:53,556 - root - INFO - Start operation sum
+2023-02-04 23:14:29,054 - root - INFO - Start operation sum
+2023-02-04 23:14:47,470 - root - INFO - Start operation sub
+2023-02-04 23:14:58,147 - root - INFO - Start operation mult
+2023-02-04 23:15:21,096 - root - INFO - Start menu divis.
+2023-02-04 23:16:37,978 - root - INFO - Start operation div
+2023-02-04 23:16:49,662 - root - INFO - Start operation div2
+2023-02-04 23:17:04,623 - root - INFO - Start operation div
+2023-02-04 23:17:27,084 - root - INFO - Start operation div3
+2023-02-04 23:26:15,782 - root - INFO - Start menu with rational.
+2023-02-04 23:27:30,146 - root - INFO - Start menu with rational.
+2023-02-04 23:28:04,080 - telegram.ext._application - INFO - Application started
+2023-02-04 23:28:12,718 - root - INFO - Start menu with rational.
+2023-02-04 23:28:34,791 - root - INFO - Start menu division.
+2023-02-04 23:28:41,961 - root - INFO - Start menu with rational.
+2023-02-04 23:29:11,116 - root - INFO - Start operation pow
+2023-02-04 23:31:11,428 - root - INFO - Start operation pow
+2023-02-04 23:31:17,323 - root - INFO - Start operation sqrt
+2023-02-04 23:31:44,914 - root - INFO - Start main menu.
+2023-02-04 23:45:29,910 - telegram.ext._application - INFO - Application started
+2023-02-04 23:45:49,511 - root - INFO - Start menu with rational.
+2023-02-04 23:45:55,064 - root - INFO - Start program.
+2023-02-04 23:45:58,374 - root - INFO - Start main menu.
+2023-02-04 23:46:01,403 - root - INFO - Start menu with rational.
+2023-02-04 23:47:52,470 - telegram.ext._application - INFO - Application started
+2023-02-04 23:47:59,432 - root - INFO - Start menu with rational.
+2023-02-04 23:48:04,093 - root - INFO - Start program.
+2023-02-04 23:48:06,765 - root - INFO - Start main menu.
+2023-02-04 23:48:10,779 - root - INFO - Start menu with rational.
+2023-02-05 00:06:22,901 - telegram.ext._application - INFO - Application started
+2023-02-05 00:06:33,453 - root - INFO - Start program.
+2023-02-05 00:06:37,130 - root - INFO - Start main menu.
+2023-02-05 00:07:05,154 - root - INFO - Stop program.

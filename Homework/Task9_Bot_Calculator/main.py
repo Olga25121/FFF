@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import logger as logg
 from bot_command import *
 
-app = ApplicationBuilder().token("6094800431:AAHsQrlQ5yXc6ujSezQH2phYksewKfAn2Ys").build()
+app = ApplicationBuilder().token("").build()
 
 
 app.add_handler(CommandHandler("hi", hello))

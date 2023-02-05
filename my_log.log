@@ -1,0 +1,66 @@
+05-02-2023 17:34:00 - main - INFO - <module> - Start program
+05-02-2023 17:34:09 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 17:37:38 - main - INFO - <module> - Start program
+05-02-2023 17:37:41 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 18:00:28 - main - INFO - <module> - Start program
+05-02-2023 18:02:02 - main - INFO - <module> - Start program
+05-02-2023 18:02:05 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 18:04:24 - main - INFO - <module> - Start program
+05-02-2023 18:04:27 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 18:09:02 - main - INFO - <module> - Start program
+05-02-2023 18:09:05 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 18:09:59 - main - INFO - <module> - Start program
+05-02-2023 18:10:37 - main - INFO - <module> - Start program
+05-02-2023 18:12:00 - main - INFO - <module> - Start program
+05-02-2023 18:12:34 - main - INFO - <module> - Start program
+05-02-2023 18:12:55 - main - INFO - <module> - Start program
+05-02-2023 18:22:30 - main - INFO - <module> - Start program
+05-02-2023 18:24:11 - main - INFO - <module> - Start program
+05-02-2023 18:24:39 - main - INFO - <module> - Start program
+05-02-2023 18:24:57 - main - INFO - <module> - Start program
+05-02-2023 18:39:09 - main - INFO - <module> - Start program
+05-02-2023 18:48:03 - main - INFO - <module> - Start program
+05-02-2023 18:52:05 - main - INFO - <module> - Start program
+05-02-2023 18:53:05 - main - INFO - <module> - Start program
+05-02-2023 18:53:06 - main - INFO - <module> - Start program
+05-02-2023 18:54:23 - main - INFO - <module> - Start program
+05-02-2023 18:54:26 - model - INFO - menu - Show all Show all entries. Database File - csv_data.csv
+05-02-2023 19:16:26 - main - INFO - <module> - Start program
+05-02-2023 19:16:28 - main - INFO - <module> - Start program
+05-02-2023 19:16:40 - main - INFO - <module> - Start program
+05-02-2023 19:47:46 - main - INFO - <module> - Start program
+05-02-2023 19:48:20 - main - INFO - <module> - Start program
+05-02-2023 19:53:37 - main - INFO - <module> - Start program
+05-02-2023 19:54:02 - main - INFO - <module> - Start program
+05-02-2023 19:54:06 - controller - INFO - run - Start 1-show all.
+05-02-2023 19:58:45 - main - INFO - <module> - Start program
+05-02-2023 19:58:49 - controller - INFO - run - Start 1-show all.
+05-02-2023 19:59:36 - main - INFO - <module> - Start program
+05-02-2023 19:59:40 - controller - INFO - run - Start 1-show all.
+05-02-2023 20:00:03 - main - INFO - <module> - Start program
+05-02-2023 20:00:08 - controller - INFO - run - Start 2-find employee.
+05-02-2023 20:01:54 - main - INFO - <module> - Start program
+05-02-2023 20:01:57 - controller - INFO - run - Start 2-find employee.
+05-02-2023 20:02:55 - main - INFO - <module> - Start program
+05-02-2023 20:02:59 - controller - INFO - run - Start 3-add employee.
+05-02-2023 20:03:30 - controller - INFO - run - Employee has added.
+05-02-2023 20:03:49 - main - INFO - <module> - Start program
+05-02-2023 20:03:54 - controller - INFO - run - Start 4-update data base.
+05-02-2023 20:04:23 - controller - INFO - run - Input new data.
+05-02-2023 20:04:43 - main - INFO - <module> - Start program
+05-02-2023 20:04:56 - controller - INFO - run - Start 4-update data base.
+05-02-2023 20:05:19 - controller - INFO - run - Input new data.
+05-02-2023 20:05:26 - main - INFO - <module> - Start program
+05-02-2023 20:05:30 - controller - INFO - run - Start 5-delete employee..
+05-02-2023 20:06:01 - main - INFO - <module> - Start program
+05-02-2023 20:06:07 - controller - INFO - run - Start 6-export/import.
+05-02-2023 20:06:07 - model - INFO - export_import - Start menu export/import.
+05-02-2023 20:06:11 - model - INFO - export_import - Start export.
+05-02-2023 20:06:25 - main - INFO - <module> - Start program
+05-02-2023 20:06:31 - controller - INFO - run - Start 6-export/import.
+05-02-2023 20:06:31 - model - INFO - export_import - Start menu export/import.
+05-02-2023 20:06:33 - model - INFO - export_import - Start import.
+05-02-2023 20:22:13 - main - INFO - <module> - Start program
+05-02-2023 20:22:17 - controller - INFO - run - Start 6-export/import.
+05-02-2023 20:22:17 - model - INFO - export_import - Start menu export/import.
+05-02-2023 20:22:23 - model - INFO - export_import - Start export.

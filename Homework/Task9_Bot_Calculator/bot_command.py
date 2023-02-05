@@ -12,7 +12,7 @@ async def main_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(f'Would you like working with:\n'
                 'a - rational\n'
                 # 'b - complex\n' 
-                'c - exit?\n')
+                'b - exit?\n')
 
 async def racional_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     logg.logging.info('Start menu with rational.')
@@ -100,14 +100,7 @@ async def sqrt(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     x = int(items[1])
     await update.message.reply_text(f'{x} ** 0.5 = {x**0.5}')
 
-
-async def racional_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    logg.logging.info('Start menu with complex.')
-    await update.message.reply_text(f'Select operation and put two numbers by ENTER:\n'
-            '1 - sum\n'
-            '2 - subtraction\n'
-            '3 - multiplication\n'
-            '4 - division\n'
-            '5 - exponentiation\n'
-            '6 - square root - enter one number\n'
-            '0 - main menu') 
+async def exit_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    logg.logging.info('Stop program')
+    await update.message.reply_text(f'Stop program. See you soon, {update.effective_user.first_name}!')
+  

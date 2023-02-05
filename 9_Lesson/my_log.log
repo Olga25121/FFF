@@ -1,0 +1,49 @@
+30-01-2023 15:28:18 - main - INFO - <module> - Start program
+30-01-2023 15:28:18 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:28:18 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:28:47 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-01-2023 15:28:47 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:28:47 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:28:58 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:28:58 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:29:04 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-01-2023 15:29:04 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:29:04 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:29:09 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:29:09 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:30:16 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-01-2023 15:30:16 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:30:16 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:30:37 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:30:37 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:30:37 - err_check - INFO - find_entry - Search for an entry: Иванов
+30-01-2023 15:31:16 - main - INFO - <module> - Start program
+30-01-2023 15:31:16 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:31:16 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:31:20 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:31:20 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:31:21 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:31:21 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:31:30 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:31:30 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:31:38 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:31:38 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:31:38 - err_check - INFO - find_entry - Search for an entry: Цинов
+30-01-2023 15:31:44 - main - INFO - <module> - Start program
+30-01-2023 15:31:44 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:31:44 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:32:02 - db_work - INFO - del_entry - Deleting an entry: Цинов
+30-01-2023 15:32:02 - err_check - INFO - find_entry - Search for an entry: Цинов
+30-01-2023 15:32:02 - err_check - WARNING - find_entry - No data found: Цинов
+30-01-2023 15:32:02 - db_work - WARNING - del_entry - No data found: Цинов
+30-01-2023 15:32:02 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:32:02 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:32:30 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-01-2023 15:32:30 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:32:30 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:32:31 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-01-2023 15:32:31 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:32:31 - db_work - WARNING - read_all - The database is not connected! Missing database file.
+30-01-2023 15:32:33 - user_interface - WARNING - menu - Main menu, wrong item selected.
+30-01-2023 15:32:33 - db_work - INFO - read_all - Show all Show all entries. Database File - telephone_book.csv
+30-01-2023 15:32:33 - db_work - WARNING - read_all - The database is not connected! Missing database file.

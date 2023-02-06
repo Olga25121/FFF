@@ -38,7 +38,7 @@ def run():
 
     elif start == 5:
         logging.info('Start 5-delete employee..')
-        key = input('Введите имя или фамилию: ')
+        key = input('Введите id, имя или фамилию: ')
         model.delete_employee(key)
         logging.info('Employee has deleted.')
 

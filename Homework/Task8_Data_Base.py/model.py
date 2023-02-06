@@ -61,7 +61,7 @@ def add_employee():         # 3 - Добавить запись
 def update_data(index, pos):  # 4 - обновление информации
     list_csv = show_all()
     list_csv[index[0]] = pos
-    with open("csv_python.csv", "w", encoding="utf8", newline='') as file:
+    with open("python.csv", "w", encoding="utf8", newline='') as file:
         writer = csv.writer(file, delimiter=';')
         for row in list_csv:
             writer.writerow(row)

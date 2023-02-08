@@ -133,3 +133,14 @@
 08-02-2023 12:32:25 - controller - INFO - run - Start 2-find employee.
 08-02-2023 12:32:39 - main - INFO - <module> - Start program
 08-02-2023 12:32:42 - controller - INFO - run - Start 2-find employee.
+08-02-2023 15:00:34 - main - INFO - <module> - Start program
+08-02-2023 15:00:36 - main - INFO - <module> - Start program
+08-02-2023 15:00:44 - controller - INFO - run - Start 1-show all.
+08-02-2023 15:02:21 - main - INFO - <module> - Start program
+08-02-2023 15:02:25 - controller - INFO - run - Start 1-show all.
+08-02-2023 15:03:30 - main - INFO - <module> - Start program
+08-02-2023 15:03:38 - controller - INFO - run - Start 6-export/import.
+08-02-2023 15:03:38 - model - INFO - export_import - Start menu export/import.
+08-02-2023 15:03:40 - model - INFO - export_import - Start export.
+08-02-2023 15:07:50 - main - INFO - <module> - Start program
+08-02-2023 15:07:56 - controller - INFO - run - Start 1-show all.

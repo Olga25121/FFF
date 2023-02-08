@@ -1,103 +1,135 @@
-2023-02-05 04:01:34,883 - telegram.ext._application - INFO - Application started
-2023-02-05 04:01:58,673 - root - INFO - Start program.
-2023-02-05 04:02:03,249 - root - INFO - Start main menu.
-2023-02-05 04:02:12,184 - root - INFO - Start menu with complex.
-2023-02-05 04:02:25,227 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_application.py", line 1063, in process_update
-    await coroutine
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_handler.py", line 141, in handle_update
-    return await self.callback(update, context)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: Quitter.__call__() takes from 1 to 2 positional arguments but 3 were given
-2023-02-05 04:02:34,224 - root - INFO - Start main menu.
-2023-02-05 04:02:38,224 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_application.py", line 1063, in process_update
-    await coroutine
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_handler.py", line 141, in handle_update
-    return await self.callback(update, context)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: Quitter.__call__() takes from 1 to 2 positional arguments but 3 were given
-2023-02-05 04:05:29,218 - telegram.ext._updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2023-02-05 04:05:29,218 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_updater.py", line 600, in _network_loop_retry
-    if not await action_cb():
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_updater.py", line 327, in polling_action_cb
-    raise exc
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_updater.py", line 312, in polling_action_cb
-    updates = await self.bot.get_updates(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_extbot.py", line 524, in get_updates
-    updates = await super().get_updates(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\_bot.py", line 334, in decorator
-    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\_bot.py", line 3584, in get_updates
-    await self._post(
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\_bot.py", line 422, in _post
-    return await self._do_post(
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_extbot.py", line 306, in _do_post
-    return await super()._do_post(
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\_bot.py", line 453, in _do_post
-    return await request.post(
-           ^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\request\_baserequest.py", line 165, in post
-    result = await self._request_wrapper(
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\request\_baserequest.py", line 330, in _request_wrapper
-    raise Conflict(message)
-telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2023-02-05 04:05:34,290 - telegram.ext._updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2023-02-05 04:05:34,290 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_updater.py", line 600, in _network_loop_retry
-    if not await action_cb():
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_updater.py", line 327, in polling_action_cb
-    raise exc
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_updater.py", line 312, in polling_action_cb
-    updates = await self.bot.get_updates(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_extbot.py", line 524, in get_updates
-    updates = await super().get_updates(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\_bot.py", line 334, in decorator
-    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\_bot.py", line 3584, in get_updates
-    await self._post(
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\_bot.py", line 422, in _post
-    return await self._do_post(
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\ext\_extbot.py", line 306, in _do_post
-    return await super()._do_post(
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\_bot.py", line 453, in _do_post
-    return await request.post(
-           ^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\request\_baserequest.py", line 165, in post
-    result = await self._request_wrapper(
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\AppData\Roaming\Python\Python311\site-packages\telegram\request\_baserequest.py", line 330, in _request_wrapper
-    raise Conflict(message)
-telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2023-02-05 04:40:50,307 - telegram.ext._application - INFO - Application started
-2023-02-05 04:41:03,379 - root - INFO - Start program.
-2023-02-05 04:41:07,056 - root - INFO - Start main menu.
-2023-02-05 04:41:11,310 - root - INFO - Start menu with rational.
-2023-02-05 04:41:28,029 - root - INFO - Start menu division.
-2023-02-05 04:41:34,444 - root - INFO - Start menu with rational.
-2023-02-05 04:41:38,602 - root - INFO - Start main menu.
-2023-02-05 04:41:42,831 - root - INFO - Stop program. See you soon, {update.effective_user.first_name}!
-2023-02-05 04:50:20,983 - telegram.ext._application - INFO - Application started
-2023-02-05 04:50:29,331 - root - INFO - Start program.
-2023-02-05 04:50:32,115 - root - INFO - Start main menu.
-2023-02-05 04:50:35,516 - root - INFO - Start menu with rational.
-2023-02-05 04:50:38,790 - root - INFO - Start main menu.
-2023-02-05 04:50:42,728 - root - INFO - Stop program
+05-02-2023 17:34:00 - main - INFO - <module> - Start program
+05-02-2023 17:34:09 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 17:37:38 - main - INFO - <module> - Start program
+05-02-2023 17:37:41 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 18:00:28 - main - INFO - <module> - Start program
+05-02-2023 18:02:02 - main - INFO - <module> - Start program
+05-02-2023 18:02:05 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 18:04:24 - main - INFO - <module> - Start program
+05-02-2023 18:04:27 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 18:09:02 - main - INFO - <module> - Start program
+05-02-2023 18:09:05 - model - INFO - csv_data_open - Show all. Database File - employees_base.csv
+05-02-2023 18:09:59 - main - INFO - <module> - Start program
+05-02-2023 18:10:37 - main - INFO - <module> - Start program
+05-02-2023 18:12:00 - main - INFO - <module> - Start program
+05-02-2023 18:12:34 - main - INFO - <module> - Start program
+05-02-2023 18:12:55 - main - INFO - <module> - Start program
+05-02-2023 18:22:30 - main - INFO - <module> - Start program
+05-02-2023 18:24:11 - main - INFO - <module> - Start program
+05-02-2023 18:24:39 - main - INFO - <module> - Start program
+05-02-2023 18:24:57 - main - INFO - <module> - Start program
+05-02-2023 18:39:09 - main - INFO - <module> - Start program
+05-02-2023 18:48:03 - main - INFO - <module> - Start program
+05-02-2023 18:52:05 - main - INFO - <module> - Start program
+05-02-2023 18:53:05 - main - INFO - <module> - Start program
+05-02-2023 18:53:06 - main - INFO - <module> - Start program
+05-02-2023 18:54:23 - main - INFO - <module> - Start program
+05-02-2023 18:54:26 - model - INFO - menu - Show all Show all entries. Database File - csv_data.csv
+05-02-2023 19:16:26 - main - INFO - <module> - Start program
+05-02-2023 19:16:28 - main - INFO - <module> - Start program
+05-02-2023 19:16:40 - main - INFO - <module> - Start program
+05-02-2023 19:47:46 - main - INFO - <module> - Start program
+05-02-2023 19:48:20 - main - INFO - <module> - Start program
+05-02-2023 19:53:37 - main - INFO - <module> - Start program
+05-02-2023 19:54:02 - main - INFO - <module> - Start program
+05-02-2023 19:54:06 - controller - INFO - run - Start 1-show all.
+05-02-2023 19:58:45 - main - INFO - <module> - Start program
+05-02-2023 19:58:49 - controller - INFO - run - Start 1-show all.
+05-02-2023 19:59:36 - main - INFO - <module> - Start program
+05-02-2023 19:59:40 - controller - INFO - run - Start 1-show all.
+05-02-2023 20:00:03 - main - INFO - <module> - Start program
+05-02-2023 20:00:08 - controller - INFO - run - Start 2-find employee.
+05-02-2023 20:01:54 - main - INFO - <module> - Start program
+05-02-2023 20:01:57 - controller - INFO - run - Start 2-find employee.
+05-02-2023 20:02:55 - main - INFO - <module> - Start program
+05-02-2023 20:02:59 - controller - INFO - run - Start 3-add employee.
+05-02-2023 20:03:30 - controller - INFO - run - Employee has added.
+05-02-2023 20:03:49 - main - INFO - <module> - Start program
+05-02-2023 20:03:54 - controller - INFO - run - Start 4-update data base.
+05-02-2023 20:04:23 - controller - INFO - run - Input new data.
+05-02-2023 20:04:43 - main - INFO - <module> - Start program
+05-02-2023 20:04:56 - controller - INFO - run - Start 4-update data base.
+05-02-2023 20:05:19 - controller - INFO - run - Input new data.
+05-02-2023 20:05:26 - main - INFO - <module> - Start program
+05-02-2023 20:05:30 - controller - INFO - run - Start 5-delete employee..
+05-02-2023 20:06:01 - main - INFO - <module> - Start program
+05-02-2023 20:06:07 - controller - INFO - run - Start 6-export/import.
+05-02-2023 20:06:07 - model - INFO - export_import - Start menu export/import.
+05-02-2023 20:06:11 - model - INFO - export_import - Start export.
+05-02-2023 20:06:25 - main - INFO - <module> - Start program
+05-02-2023 20:06:31 - controller - INFO - run - Start 6-export/import.
+05-02-2023 20:06:31 - model - INFO - export_import - Start menu export/import.
+05-02-2023 20:06:33 - model - INFO - export_import - Start import.
+05-02-2023 20:22:13 - main - INFO - <module> - Start program
+05-02-2023 20:22:17 - controller - INFO - run - Start 6-export/import.
+05-02-2023 20:22:17 - model - INFO - export_import - Start menu export/import.
+05-02-2023 20:22:23 - model - INFO - export_import - Start export.
+06-02-2023 18:34:48 - main - INFO - <module> - Start program
+06-02-2023 18:34:53 - controller - INFO - run - Start 1-show all.
+06-02-2023 18:35:11 - main - INFO - <module> - Start program
+06-02-2023 18:35:15 - controller - INFO - run - Start 2-find employee.
+06-02-2023 18:35:28 - main - INFO - <module> - Start program
+06-02-2023 18:35:30 - controller - INFO - run - Start 2-find employee.
+06-02-2023 21:32:15 - main - INFO - <module> - Start program
+06-02-2023 21:34:12 - controller - INFO - run - Start 1-show all.
+06-02-2023 21:34:48 - main - INFO - <module> - Start program
+06-02-2023 21:34:52 - controller - INFO - run - Start 1-show all.
+06-02-2023 21:35:16 - main - INFO - <module> - Start program
+06-02-2023 21:35:20 - controller - INFO - run - Start 1-show all.
+06-02-2023 21:35:46 - main - INFO - <module> - Start program
+06-02-2023 21:35:49 - controller - INFO - run - Start 2-find employee.
+06-02-2023 21:36:10 - main - INFO - <module> - Start program
+06-02-2023 21:36:16 - controller - INFO - run - Start 2-find employee.
+06-02-2023 22:34:35 - main - INFO - <module> - Start program
+06-02-2023 22:34:42 - controller - INFO - run - Start 1-show all.
+06-02-2023 22:34:47 - main - INFO - <module> - Start program
+06-02-2023 22:34:51 - controller - INFO - run - Start 2-find employee.
+06-02-2023 22:35:09 - main - INFO - <module> - Start program
+06-02-2023 22:35:13 - controller - INFO - run - Start 2-find employee.
+06-02-2023 22:35:56 - main - INFO - <module> - Start program
+06-02-2023 22:36:02 - controller - INFO - run - Start 3-add employee.
+06-02-2023 22:36:20 - controller - INFO - run - Employee has added.
+06-02-2023 22:36:36 - main - INFO - <module> - Start program
+06-02-2023 22:36:44 - controller - INFO - run - Start 4-update data base.
+06-02-2023 22:36:57 - controller - INFO - run - Input new data.
+06-02-2023 22:40:55 - main - INFO - <module> - Start program
+06-02-2023 22:40:59 - controller - INFO - run - Start 5-delete employee..
+06-02-2023 22:41:09 - controller - INFO - run - Employee has deleted.
+06-02-2023 22:42:41 - main - INFO - <module> - Start program
+06-02-2023 22:43:03 - controller - INFO - run - Start 6-export/import.
+06-02-2023 22:43:03 - model - INFO - export_import - Start menu export/import.
+06-02-2023 22:43:05 - model - INFO - export_import - Start export.
+06-02-2023 22:43:52 - main - INFO - <module> - Start program
+06-02-2023 22:43:56 - controller - INFO - run - Start 2-find employee.
+06-02-2023 23:57:41 - main - INFO - <module> - Start program
+06-02-2023 23:57:46 - controller - INFO - run - Start 1-show all.
+06-02-2023 23:57:51 - main - INFO - <module> - Start program
+06-02-2023 23:57:54 - controller - INFO - run - Start 2-find employee.
+06-02-2023 23:58:08 - main - INFO - <module> - Start program
+06-02-2023 23:58:12 - controller - INFO - run - Start 4-update data base.
+06-02-2023 23:58:23 - controller - INFO - run - Input new data.
+07-02-2023 00:01:08 - main - INFO - <module> - Start program
+07-02-2023 00:01:11 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:01:20 - controller - INFO - run - Input new data.
+07-02-2023 00:01:24 - controller - INFO - run - Base has updated.
+07-02-2023 00:08:23 - main - INFO - <module> - Start program
+07-02-2023 00:08:27 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:08:33 - controller - INFO - run - Input new data.
+07-02-2023 00:09:41 - main - INFO - <module> - Start program
+07-02-2023 00:09:44 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:09:50 - controller - INFO - run - Input new data.
+07-02-2023 00:20:13 - main - INFO - <module> - Start program
+07-02-2023 00:20:15 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:20:24 - controller - INFO - run - Input new data.
+07-02-2023 00:21:05 - main - INFO - <module> - Start program
+07-02-2023 00:21:09 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:21:14 - controller - INFO - run - Input new data.
+07-02-2023 00:22:53 - main - INFO - <module> - Start program
+07-02-2023 00:22:56 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:23:01 - controller - INFO - run - Input new data.
+08-02-2023 11:45:30 - main - INFO - <module> - Start program
+08-02-2023 11:45:34 - controller - INFO - run - Start 2-find employee.
+08-02-2023 12:32:22 - main - INFO - <module> - Start program
+08-02-2023 12:32:25 - controller - INFO - run - Start 2-find employee.
+08-02-2023 12:32:39 - main - INFO - <module> - Start program
+08-02-2023 12:32:42 - controller - INFO - run - Start 2-find employee.

@@ -39,7 +39,7 @@ def save_csv(file_name):
     logging.info(f"Export in csv format: {file_name}.csv")
 
     with open(f'{file_name}.csv', 'w', encoding="utf-8", newline="") as file_w, \
-            open('employee_base.csv', encoding="utf-8") as file_r:
+            open('python.csv', encoding="utf-8") as file_r:
         all_data = csv.DictReader(file_r)
         fieldnames = ["id", "name", "surname", "phone", "email", "position", "salary"]
         writer = csv.DictWriter(file_w, fieldnames=fieldnames)

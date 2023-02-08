@@ -1,4 +1,5 @@
 import csv
+from optparse import Values
 from exception import *
 from logger import logging
 
@@ -32,6 +33,7 @@ def find_employee(k):       # 2 - Найти запись
                 print(i)
 
 
+
 def add_employee():         # 3 - Добавить запись
     print('Введите данные нового сотрудника через ENTER: ')
     id = input('id: ')
@@ -45,18 +47,18 @@ def add_employee():         # 3 - Добавить запись
         print('Новая запись добавлена')
 
 
-# def change_data(): # 4 - Редактировать запись
-#     k = input('Введите старые данные: ')
-#     new_val = input('Введите новые данные: ')
-#     array = import_dictionary()
-#     for i in array:
-#         for value in i.values():
-#             if value == k:
-#                 value == new_val
-#     with open('python.csv', mode="w", encoding='utf-8', newline='') as python:
-#         fc = csv.DictWriter(python, fieldnames=array[0].keys())
-#         fc.writeheader()
-#         fc.writerows(array)    
+def change_data(): # 4 - Редактировать запись
+    k = input('Введите старые данные: ')
+    new_val = input('Введите новые данные: ')
+    array = import_dictionary()
+    for i in array:
+        for value in i.values():
+            if value == k:
+                value == new_val
+    with open('python.csv', mode="w", encoding='utf-8', newline='') as python:
+        fc = csv.DictWriter(python, fieldnames=array[0].keys())
+        fc.writeheader()
+        fc.writerows(array)    
 
 def update_data(index, pos):  # 4 - обновление информации
     list_csv = show_all()
@@ -65,9 +67,11 @@ def update_data(index, pos):  # 4 - обновление информации
         writer = csv.writer(file, delimiter=';')
         for row in list_csv:
             writer.writerow(row)
+
 def change_data():  # по номеру id меняем данные о сотруднике и перезаписываем строку
+    array = import_dictionary()
     with open("python.csv") as f:
-        data = [i for i in csv.reader(f)]
+        data = [i for i in array]
         for line in data:
             if(int(line[0])==selectedId): 
                 line[user_choice_second] = input_update

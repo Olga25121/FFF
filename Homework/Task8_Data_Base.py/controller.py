@@ -31,7 +31,7 @@ def run():
         model.second_select(user_choice)
         input_update=input("Введите новые данные: ")
         logging.info('Input new data.')
-        model.update_data(input_update)
+        model.update_data(data='')
         model.change_data()
         logging.info('Base has updated.')
 

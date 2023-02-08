@@ -101,3 +101,35 @@
 06-02-2023 22:43:05 - model - INFO - export_import - Start export.
 06-02-2023 22:43:52 - main - INFO - <module> - Start program
 06-02-2023 22:43:56 - controller - INFO - run - Start 2-find employee.
+06-02-2023 23:57:41 - main - INFO - <module> - Start program
+06-02-2023 23:57:46 - controller - INFO - run - Start 1-show all.
+06-02-2023 23:57:51 - main - INFO - <module> - Start program
+06-02-2023 23:57:54 - controller - INFO - run - Start 2-find employee.
+06-02-2023 23:58:08 - main - INFO - <module> - Start program
+06-02-2023 23:58:12 - controller - INFO - run - Start 4-update data base.
+06-02-2023 23:58:23 - controller - INFO - run - Input new data.
+07-02-2023 00:01:08 - main - INFO - <module> - Start program
+07-02-2023 00:01:11 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:01:20 - controller - INFO - run - Input new data.
+07-02-2023 00:01:24 - controller - INFO - run - Base has updated.
+07-02-2023 00:08:23 - main - INFO - <module> - Start program
+07-02-2023 00:08:27 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:08:33 - controller - INFO - run - Input new data.
+07-02-2023 00:09:41 - main - INFO - <module> - Start program
+07-02-2023 00:09:44 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:09:50 - controller - INFO - run - Input new data.
+07-02-2023 00:20:13 - main - INFO - <module> - Start program
+07-02-2023 00:20:15 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:20:24 - controller - INFO - run - Input new data.
+07-02-2023 00:21:05 - main - INFO - <module> - Start program
+07-02-2023 00:21:09 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:21:14 - controller - INFO - run - Input new data.
+07-02-2023 00:22:53 - main - INFO - <module> - Start program
+07-02-2023 00:22:56 - controller - INFO - run - Start 4-update data base.
+07-02-2023 00:23:01 - controller - INFO - run - Input new data.
+08-02-2023 11:45:30 - main - INFO - <module> - Start program
+08-02-2023 11:45:34 - controller - INFO - run - Start 2-find employee.
+08-02-2023 12:32:22 - main - INFO - <module> - Start program
+08-02-2023 12:32:25 - controller - INFO - run - Start 2-find employee.
+08-02-2023 12:32:39 - main - INFO - <module> - Start program
+08-02-2023 12:32:42 - controller - INFO - run - Start 2-find employee.

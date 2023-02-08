@@ -2,3 +2,104 @@
 06-02-2023 21:12:04 - controller - INFO - run - Start 1-show all.
 06-02-2023 21:13:41 - main - INFO - <module> - Start program
 06-02-2023 21:13:44 - controller - INFO - run - Start 1-show all.
+08-02-2023 16:01:31 - main - INFO - <module> - Start program
+08-02-2023 16:01:35 - controller - INFO - run - Start 1-show all.
+08-02-2023 16:01:58 - main - INFO - <module> - Start program
+08-02-2023 16:02:03 - controller - INFO - run - Start 2-find employee.
+08-02-2023 16:02:32 - main - INFO - <module> - Start program
+08-02-2023 16:02:36 - controller - INFO - run - Start 2-find employee.
+08-02-2023 16:06:13 - main - INFO - <module> - Start program
+08-02-2023 16:06:49 - controller - INFO - run - Start 2-find employee.
+08-02-2023 16:07:42 - main - INFO - <module> - Start program
+08-02-2023 16:07:50 - controller - INFO - run - Start 3-add employee.
+08-02-2023 16:08:03 - controller - INFO - run - Employee has added.
+08-02-2023 16:08:25 - main - INFO - <module> - Start program
+08-02-2023 16:08:30 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:08:44 - controller - INFO - run - Input new data.
+08-02-2023 16:10:02 - main - INFO - <module> - Start program
+08-02-2023 16:10:08 - controller - INFO - run - Start 5-delete employee..
+08-02-2023 16:10:13 - controller - INFO - run - Employee has deleted.
+08-02-2023 16:11:17 - main - INFO - <module> - Start program
+08-02-2023 16:11:25 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:11:48 - controller - INFO - run - Input new data.
+08-02-2023 16:12:25 - controller - INFO - run - Base has updated.
+08-02-2023 16:14:02 - main - INFO - <module> - Start program
+08-02-2023 16:14:13 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:14:40 - controller - INFO - run - Input new data.
+08-02-2023 16:14:50 - controller - INFO - run - Base has updated.
+08-02-2023 16:16:08 - main - INFO - <module> - Start program
+08-02-2023 16:16:46 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:17:02 - controller - INFO - run - Input new data.
+08-02-2023 16:17:13 - controller - INFO - run - Base has updated.
+08-02-2023 16:18:19 - main - INFO - <module> - Start program
+08-02-2023 16:18:23 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:19:09 - controller - INFO - run - Input new data.
+08-02-2023 16:19:18 - controller - INFO - run - Base has updated.
+08-02-2023 16:24:18 - main - INFO - <module> - Start program
+08-02-2023 16:24:22 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:24:31 - controller - INFO - run - Input new data.
+08-02-2023 16:24:47 - controller - INFO - run - Base has updated.
+08-02-2023 16:26:21 - main - INFO - <module> - Start program
+08-02-2023 16:26:24 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:26:35 - controller - INFO - run - Input new data.
+08-02-2023 16:26:42 - controller - INFO - run - Base has updated.
+08-02-2023 16:27:33 - main - INFO - <module> - Start program
+08-02-2023 16:27:36 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:27:42 - controller - INFO - run - Input new data.
+08-02-2023 16:27:48 - controller - INFO - run - Base has updated.
+08-02-2023 16:34:11 - main - INFO - <module> - Start program
+08-02-2023 16:34:14 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:34:22 - controller - INFO - run - Input new data.
+08-02-2023 16:37:15 - main - INFO - <module> - Start program
+08-02-2023 16:37:18 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:37:24 - controller - INFO - run - Input new data.
+08-02-2023 16:37:31 - controller - INFO - run - Base has updated.
+08-02-2023 16:41:09 - main - INFO - <module> - Start program
+08-02-2023 16:41:12 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:42:25 - controller - INFO - run - Input new data.
+08-02-2023 16:45:44 - main - INFO - <module> - Start program
+08-02-2023 16:45:47 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:45:53 - controller - INFO - run - Input new data.
+08-02-2023 16:49:22 - main - INFO - <module> - Start program
+08-02-2023 16:49:25 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:49:30 - controller - INFO - run - Input new data.
+08-02-2023 16:50:29 - main - INFO - <module> - Start program
+08-02-2023 16:50:32 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:50:37 - controller - INFO - run - Input new data.
+08-02-2023 16:51:47 - main - INFO - <module> - Start program
+08-02-2023 16:51:50 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:51:56 - controller - INFO - run - Input new data.
+08-02-2023 16:52:02 - controller - INFO - run - Base has updated.
+08-02-2023 16:53:59 - main - INFO - <module> - Start program
+08-02-2023 16:54:12 - main - INFO - <module> - Start program
+08-02-2023 16:54:17 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:54:22 - controller - INFO - run - Input new data.
+08-02-2023 16:54:28 - controller - INFO - run - Base has updated.
+08-02-2023 16:57:30 - main - INFO - <module> - Start program
+08-02-2023 16:57:33 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:57:36 - controller - INFO - run - Input new data.
+08-02-2023 16:58:15 - main - INFO - <module> - Start program
+08-02-2023 16:58:19 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:58:22 - controller - INFO - run - Input new data.
+08-02-2023 16:58:32 - controller - INFO - run - Base has updated.
+08-02-2023 16:59:32 - main - INFO - <module> - Start program
+08-02-2023 16:59:35 - controller - INFO - run - Start 4-update data base.
+08-02-2023 16:59:38 - controller - INFO - run - Input new data.
+08-02-2023 16:59:46 - controller - INFO - run - Base has updated.
+08-02-2023 17:02:57 - main - INFO - <module> - Start program
+08-02-2023 17:02:59 - controller - INFO - run - Start 4-update data base.
+08-02-2023 17:03:03 - controller - INFO - run - Input new data.
+08-02-2023 17:03:35 - main - INFO - <module> - Start program
+08-02-2023 17:03:38 - controller - INFO - run - Start 4-update data base.
+08-02-2023 17:03:41 - controller - INFO - run - Input new data.
+08-02-2023 17:34:07 - main - INFO - <module> - Start program
+08-02-2023 17:34:39 - main - INFO - <module> - Start program
+08-02-2023 17:41:20 - main - INFO - <module> - Start program
+08-02-2023 18:01:43 - main - INFO - <module> - Start program
+08-02-2023 18:02:28 - main - INFO - <module> - Start program
+08-02-2023 18:05:23 - main - INFO - <module> - Start program
+08-02-2023 18:05:36 - main - INFO - <module> - Start program
+08-02-2023 18:07:26 - main - INFO - <module> - Start program
+08-02-2023 18:08:24 - main - INFO - <module> - Start program
+08-02-2023 18:09:45 - main - INFO - <module> - Start program
+08-02-2023 18:10:23 - main - INFO - <module> - Start program

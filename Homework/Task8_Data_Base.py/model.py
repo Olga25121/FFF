@@ -17,11 +17,17 @@ def import_dictionary():
         list_of_dict = list(dict_reader)
     return list_of_dict
 
-def show_all():   # 1 - Показать все записи
-    with open("python.csv", "r", encoding='utf-8') as f:
-        reader = csv.reader(f, delimiter=",")
-        for line in reader:
-            print(line)
+# def show_all():   # 1 - Показать все записи
+#     with open("python.csv", "r", encoding='utf-8') as f:
+#         reader = csv.reader(f, delimiter=",")
+#         for line in reader:
+#             print(line)
+def show_all():      # 1 - показать все
+    with open("python.csv", encoding='utf-8') as file:
+        file_csv = csv.reader(file, delimiter=";")
+        res = list(file_csv)
+    return res
+
 
 
 def find_employee(k):       # 2 - Найти запись
@@ -39,9 +45,9 @@ def add_employee():         # 3 - Добавить запись
     surname = input('Фамилия: ')
     position = input('Должность: ')
     salary = input('Зарплата: ')
-    with open('python.csv', mode="a", encoding='utf-8') as csv_data:
+    with open('python.csv', mode="a", encoding='utf-8') as python:
         new_employee = f'\n{id},{name},{surname},{position},{salary}\n'
-        csv_data.write(new_employee)
+        python.write(new_employee)
         print('Новая запись добавлена')
 
 
@@ -51,26 +57,75 @@ def add_employee():         # 3 - Добавить запись
 #     array = import_dictionary()
 #     for i in array:
 #         for value in i.values():
-#             if value == k:
+#             if k in value:
 #                 value == new_val
-#     with open('python.csv', mode="w", encoding='utf-8', newline='') as csv_data:
-#         fc = csv.DictWriter(csv_data, fieldnames=array[0].keys())
-#         fc.writeheader()
-#         fc.writerows(array)    
+#         with open('python.csv', mode="w", encoding='utf-8', newline='') as python:
+#             fc = csv.DictWriter(python, fieldnames=array[0].keys())
+#             fc.writeheader()
+#             fc.writerows(array)  
+            
+          
+      
+                
+               
 
-def update_data(index, pos):  # 4 - обновление информации
+# def update_data(index, pos):  # 4 - обновление информации
+#     list_csv = show_all()
+#     list_csv[index[0]] = pos
+#     with open("python.csv", "w", encoding="utf8", newline='') as file:
+#         writer = csv.writer(file, delimiter=';')
+#         for row in list_csv:
+#             writer.writerow(row)
+# def change_data():  # по номеру id меняем данные о сотруднике и перезаписываем строку
+#     with open("python.csv", "r", encoding='utf-8', newline='') as f:
+#         data = [i for i in csv.reader(f)]
+#         for line in data:
+#             if(int(line[0])==selectedId): 
+#                 line[user_choice_second] = input_update
+
+
+def update_info(index, tel):  # 4 - обновление информации
     list_csv = show_all()
-    list_csv[index[0]] = pos
+    list_csv[index][3] = tel
     with open("python.csv", "w", encoding="utf8", newline='') as file:
         writer = csv.writer(file, delimiter=';')
         for row in list_csv:
             writer.writerow(row)
-def change_data():  # по номеру id меняем данные о сотруднике и перезаписываем строку
-    with open("python.csv") as f:
-        data = [i for i in csv.reader(f)]
-        for line in data:
-            if(int(line[0])==selectedId): 
-                line[user_choice_second] = input_update
+
+def update_info_1(index, pos):  # 4 - обновление информации
+    list_csv = show_all()
+    list_csv[index][5] = pos
+    with open("python.csv", "w", encoding="utf8", newline='') as file:
+        writer = csv.writer(file, delimiter=';')
+        for row in list_csv:
+            writer.writerow(row)
+
+def update_info_2(index, surn):  # 4 - обновление информации
+    list_csv = show_all()
+    list_csv[index][2] = surn
+    with open("python.csv", "w", encoding="utf8", newline='') as file:
+        writer = csv.writer(file, delimiter=';')
+        for row in list_csv:
+            writer.writerow(row)
+
+def change_tel():
+    print('Введите ID для изменения')
+    print('Введите новый телефон')
+    return int(input()), input()
+
+def change_position():
+    print('Введите ID для изменения')
+    print('Введите новую должность')
+    return int(input()), input()
+
+def change_surname():
+    print('Введите ID для изменения')
+    print('Введите новый статус')
+    return int(input()), input()
+
+
+
+
 
 
 
@@ -80,8 +135,8 @@ def delete_employee(k):    # 5 - Удалить запись
         for value in i.values():
             if value == k:
                 array.remove(i)
-    with open('python.csv', mode="w", encoding='utf-8', newline='') as csv_data:
-        fc = csv.DictWriter(csv_data, fieldnames=array[0].keys())
+    with open('python.csv', mode="w", encoding='utf-8', newline='') as python:
+        fc = csv.DictWriter(python, fieldnames=array[0].keys())
         fc.writeheader()
         fc.writerows(array)
         print("Запись удалена.")

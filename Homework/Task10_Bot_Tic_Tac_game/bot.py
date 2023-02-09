@@ -52,10 +52,10 @@ print("Bot activate")
 
 @dp.message_handler(commands=['start'])
 async def start(message: Message):
-    await message.reply("Вас приветствует Бот_крестики-нолики\n"
-                        "Для начала игры выберите в меню start_game")
+    await message.answer("Добро пожаловать в игру крестики-нолики!\n"
+                             "Для начала игры введите /board")
 
-@dp.message_handler(commands=['start_game'])
+@dp.message_handler(commands=['board'])
 async def show_field(message: Message):
     global kb
     kb = [
@@ -77,7 +77,7 @@ async def show_field(message: Message):
     ]
       
     board = InlineKeyboardMarkup(inline_keyboard = kb)
-    await message.reply(f'Первыми ходят {chr(10060)}\n'
+    await message.answer(f'Первыми ходят {chr(10060)}\n'
     'Сделайте ход выбрав цифру на поле', reply_markup=board)
   
 @dp.callback_query_handler(action_callback.filter())
